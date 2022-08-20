@@ -1,7 +1,7 @@
 diff --git a/EntityFieldDeriver.php b/EntityFieldDeriver.php
 index ea3b342..f38bb52 100644
---- a/EntityFieldDeriver.php
-+++ b/EntityFieldDeriver.php
+--- a/modules/contrib/context_entity_field/src/Plugin/Deriver/EntityFieldDeriver.php
++++ b/modules/contrib/context_entity_field/src/Plugin/Deriver/EntityFieldDeriver.php
 @@ -2,7 +2,7 @@
  
  namespace Drupal\context_entity_field\Plugin\Deriver;

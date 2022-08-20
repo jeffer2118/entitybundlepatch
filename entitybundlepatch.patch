@@ -1,0 +1,13 @@
+diff --git modules/contrib/context_entity_field//src/Plugin/Deriver/EntityFieldDeriver.php b/src/Plugin/Deriver/EntityFieldDeriver.php
+index ea3b342..f38bb52 100644
+--- a/modules/contrib/context_entity_field/src/Plugin/Deriver/EntityFieldDeriver.php
++++ b/modules/contrib/context_entity_field//src/Plugin/Deriver/EntityFieldDeriver.php
+@@ -2,7 +2,7 @@
+ 
+ namespace Drupal\context_entity_field\Plugin\Deriver;
+ 
+-use Drupal\ctools\Plugin\Deriver\EntityBundle;
++use Drupal\Core\Entity\Plugin\Condition\Deriver\EntityBundle;
+ 
+ /**
+  * Deriver that creates a condition for each entity type with bundles.

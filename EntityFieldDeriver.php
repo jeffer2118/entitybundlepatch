@@ -2,7 +2,7 @@
 
 namespace Drupal\context_entity_field\Plugin\Deriver;
 
-use Drupal\ctools\Plugin\Deriver\EntityBundle;
+use Drupal\Core\Entity\Plugin\Condition\Deriver\EntityBundle;
 
 /**
  * Deriver that creates a condition for each entity type with bundles.
